@@ -1,3 +1,55 @@
 body{
-    
+    background: url(../image/background.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.mae{
+    height: 590px;
+    width: 700px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(128, 128, 128, 0.027);
+    backdrop-filter: blur(7px);
+}
+
+img{ 
+    width: 630px;
+    height: 360;
+}
+
+.mae div{
+    padding: 20px;
+}
+button{
+    font-size: 23px;
+    margin-right: 10px;
+    border: 1px solid transparent;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    cursor: pointer;
+    &:active{
+        transform: scale(0.95);
+    }
+}
+
+.sport{
+    background-color: rgb(240, 33, 33);
+}
+.suv{
+    background-color: rgb(21, 83, 253);
+}
+.hatch{
+    background-color: rgb(14, 114, 14);
+}
+.picape{
+    background-color: rgb(245, 166, 20);
 }
